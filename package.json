@@ -1,6 +1,6 @@
 {
   "name": "hookac-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "repository": "https://github.com/hook-ac/core",
   "author": "clubsh <clubsh99@gmail.com>",

@@ -4,6 +4,7 @@ export abstract class GamePlugin {
   abstract name: string;
 
   abstract tick(): void;
+  abstract onInitialize(): void;
   abstract onMapStart(): void;
   abstract onMapEnd(): void;
 }

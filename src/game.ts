@@ -40,6 +40,13 @@ export abstract class Game {
     }
   }
 
+  // Your game implementation must call this once, when it finishes initializing signatures, and other stuff.
+  static emitInitialize() {
+    for (const plugin of this.plugins) {
+      plugin.onInitialize();
+    }
+  }
+
   // Your game version must implement all off these methods to work properly with
   // any plugin.
   abstract initialize(): Promise<void>;
