@@ -1,5 +1,5 @@
 {
-  "name": "core",
+  "name": "hookac-core",
   "version": "1.0.0",
   "main": "index.ts",
   "repository": "https://github.com/hook-ac/core",
