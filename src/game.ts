@@ -51,6 +51,7 @@ export abstract class Game {
   // any plugin.
   abstract initialize(): Promise<void>;
   abstract getTime(): number;
+  abstract getDeltaTime(): number;
   abstract getIsInMap(): boolean;
   abstract getIsPaused(): boolean;
   abstract getMods(): string[];
