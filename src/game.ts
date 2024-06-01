@@ -55,7 +55,7 @@ export abstract class Game {
   abstract getIsInMap(): boolean;
   abstract getIsPaused(): boolean;
   abstract getMods(): string[];
-  abstract getBeatmap(): StandardBeatmap;
+  abstract getBeatmap(): StandardBeatmap | null;
   abstract getWindowPosition(): { x: number; y: number };
   abstract getWindowSize(): { x: number; y: number };
 }
